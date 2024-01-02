@@ -1,0 +1,141 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/sendMail/sendMail",
+			"style": {
+				"navigationBarTitleText": "寄快递",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#fff"
+			}
+
+		}, {
+			"path": "pages/searchMail/searchMail",
+			"style": {
+				"navigationBarTitleText": "查快递",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "物流评价",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/searchWithPackageID/searchWithPackageID",
+			"style": {
+				"navigationBarTitleText": "运单号查询",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/packageDetail/packageDetail",
+			"style": {
+				"navigationBarTitleText": "快递详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/forbidList/forbidList",
+			"style": {
+				"navigationBarTitleText": "禁止寄递物品规定",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/sendMailDetail/sendMailDetail",
+			"style": {
+				"navigationBarTitleText": "寄件",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+
+		}, {
+			"path": "pages/senderOrReciverInfo/senderOrReciverInfo",
+			"style": {
+				"navigationBarTitleText": "地址信息",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/addressBook/addressBook",
+			"style": {
+				"navigationBarTitleText": "地址簿",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录/注册",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/chooseStage/chooseStage",
+			"style": {
+				"navigationBarTitleText": "选择驿站",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+			"path": "pages/couponList/couponList",
+			"style": {
+				"navigationBarTitleText": "优惠券列表",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}, {
+
+			"path": "pages/priceQuery/priceQuery",
+			"style": {
+			"navigationBarTitleText": "运费查询",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#fff"
+			}
+		}			
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#222",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"spacing": "4px",
+		// 最少2个，最多5个
+		"list": [{
+				"pagePath": "pages/sendMail/sendMail",
+				"text": "寄件",
+				"iconPath": "static/tabbar/sendNative.png",
+				"selectedIconPath": "static/tabbar/send.png"
+			},
+			{
+				"pagePath": "pages/searchMail/searchMail",
+				"text": "查件",
+				"iconPath": "static/tabbar/searchNative.png",
+				"selectedIconPath": "static/tabbar/search.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath": "static/tabbar/personalNative.png",
+				"selectedIconPath": "static/tabbar/personal.png"
+			}
+		]
+	}
+}
